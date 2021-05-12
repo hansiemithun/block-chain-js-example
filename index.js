@@ -1,4 +1,4 @@
-const {SHA256, MD5} = require('crypto-js');
+const {SHA256} = require('crypto-js');
 
 class Block {
   constructor({timestamp, data, previousHash=''}){
@@ -65,6 +65,7 @@ class BlockChain {
   }
 }
 
+
 const bitCoin = new BlockChain();
 
 console.log('Mining block 1............')
@@ -72,3 +73,4 @@ bitCoin.addBlock(new Block({timestamp: '11-May-2021 1:30pm', data: { units: 10, 
 console.log('Mining block 2............')
 bitCoin.addBlock(new Block({ timestamp: '11-May-2021 1:45pm', data: {units: 5, amount: 100}}))
 
+console.log('chain => ', bitCoin)
