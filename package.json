@@ -1,0 +1,23 @@
+{
+  "name": "block-chain-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansiemithun/block-chain-js-example.git"
+  },
+  "author": "Mithun Shreevatsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansiemithun/block-chain-js-example/issues"
+  },
+  "homepage": "https://github.com/hansiemithun/block-chain-js-example#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
