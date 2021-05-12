@@ -2,10 +2,6 @@
 
 ## _A Simple Blockchain Javascript Example_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 Using SHA256 encryption algorithm, this POC helps in understanding how to create block chains.
 
 ### Features:
